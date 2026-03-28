@@ -7,7 +7,7 @@
     border: 3px solid #C68EA0;
     background-color:#FFBACB;
     font-size: 13pt;
-    margin-left: 5rem;
+    margin-left: 4rem;
     text-align: left;
     align-self: center;
     margin-bottom: 5rem;
@@ -17,7 +17,7 @@
 {
     float: right;
     display:flex;
-    margin-right: 2rem;
+    margin-right: 3rem;
     margin-bottom: 2rem;
     align-items: center;
     border: 3px solid #C68EA0;
@@ -27,6 +27,7 @@
 .title {
     text-align: center;
     margin: 2rem;
+    margin-bottom: 4rem;
     border: 3px solid #C68EA0;
    font-family: "Titan One", cursive;
   font-weight: 400;
@@ -36,11 +37,12 @@
     
 } 
 .bio { 
-    width: 42rem;height: 2.6rem;
+    width: 42rem;height: 3rem;
     margin-bottom: 2rem;
     margin-right: 48rem;
     background-color:#FFBACB;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    
     
 
 }
@@ -53,7 +55,7 @@
     border: 3px solid #C68EA0;
     background-color:#FFBACB;
     font-size: 14pt;
-    margin-left: 5rem;
+    margin-left: 9rem;
     margin-right:6rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -63,16 +65,29 @@
 
 .shotboxandtext { 
     width: 25rem;
+    height: 30rem;
+    float: left;
     padding: 1rem;
     border: 3px solid #C68EA0;
     background-color:#FFBACB;
-    margin-left: 30rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-right:30rem;
+    margin-left: 12rem;
     text-align: center;
-    box-align: center;
+    box-align: left;
 }
+
+.postbox{
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+    border: 3px solid #C68EA0;
+    background-color:#FFBACB;
+    margin-left: 45rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    box-align: right;
+}
+
+
 
 .phototext{
     display: flex;
@@ -80,25 +95,27 @@
     margin-right: 2rem;
     margin-left: 2.5rem;
     padding: auto;  
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
 }
 
 .sidebox{ 
     height: 30rem;
     width: 400;
-    padding: 1rem;
+    padding: 2rem;
     border: 3px solid #C68EA0;
     background-color:#FFBACB;
     font-size: 16pt;
     margin-left: 3rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
-    text-align: left;
+    margin-bottom: 5rem; 
+    text-align: center;
     align-self: center;
     font-size: large;
     line-height: 1.8rem;
+    
+
 }
 .biophototext{
      
@@ -118,13 +135,23 @@ h2 {
     width: 100%;
     text-align:center;
     margin-top: 2rem;
+    font-family: Grenze Gotisch;
+    font-size: xx-large;
  
 }
 
 
 h3 {
   text-align:center;
+  margin-top: 6rem;
+  margin-right: 7rem;
+  margin-left: 6rem;
 
 
 }
 
+h4{
+    font-size: large;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
